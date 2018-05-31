@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box; }
+
+.main {
+  width: 100%;
+  height: 100%;
+  background: #161616;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+  .main__content {
+    width: 10%;
+    height: 10%;
+    transform: rotate(45deg); }
+    .main__content i {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .main__content i :nth-child(1) {
+        width: 6rem;
+        height: 2rem;
+        animation-delay: 0.5s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -1;
+        position: absolute; }
+      .main__content i :nth-child(2) {
+        width: 12rem;
+        height: 4rem;
+        animation-delay: 1s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -2;
+        position: absolute; }
+      .main__content i :nth-child(3) {
+        width: 18rem;
+        height: 6rem;
+        animation-delay: 1.5s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -3;
+        position: absolute; }
+      .main__content i :nth-child(4) {
+        width: 24rem;
+        height: 8rem;
+        animation-delay: 2s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -4;
+        position: absolute; }
+      .main__content i :nth-child(5) {
+        width: 30rem;
+        height: 10rem;
+        animation-delay: 2.5s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -5;
+        position: absolute; }
+      .main__content i :nth-child(6) {
+        width: 36rem;
+        height: 12rem;
+        animation-delay: 3s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -6;
+        position: absolute; }
+      .main__content i :nth-child(7) {
+        width: 42rem;
+        height: 14rem;
+        animation-delay: 3.5s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -7;
+        position: absolute; }
+      .main__content i :nth-child(8) {
+        width: 48rem;
+        height: 16rem;
+        animation-delay: 4s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -8;
+        position: absolute; }
+      .main__content i li {
+        list-style: none;
+        border: 1px solid palevioletred;
+        animation: li-animation 8s ease-in-out forwards infinite; }
+@keyframes li-animation {
+  0% {
+    transform: scale(1) rotate(0deg); }
+  50% {
+    transform: scale(3) rotate(180deg); }
+  100% {
+    transform: scale(1) rotate(0deg); } }
+
+/*# sourceMappingURL=style.css.map */
